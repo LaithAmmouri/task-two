@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "@babel"
+  ],
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 175
+      }
+    ]
+  }
+}
